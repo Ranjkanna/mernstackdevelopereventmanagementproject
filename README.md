@@ -1,16 +1,48 @@
-# React + Vite
+# Elite & Prestige Hall — Event Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack **MERN** (MongoDB, Express, React, Node.js) web application for planning and managing event bookings — built as a portfolio project to demonstrate end-to-end web development skills.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Elite & Prestige Hall lets users browse event packages, book venues, and track their bookings, while admins manage events, view bookings on an interactive map, and update statuses — all through role-based dashboards.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- User registration/login with JWT authentication and role-based access (Admin/User)
+- Interactive booking form with venue selection and map-based location pinning (Leaflet + OpenStreetMap)
+- Admin dashboard to manage events, bookings, and view all bookings on a calendar map
+- Auto-calculated booking status (upcoming/completed/cancelled)
+- Booking cancellation without losing records
+- Responsive design with a custom purple-and-blue themed dashboard
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend:** React, Vite, React Router, Bootstrap, React-Bootstrap, Leaflet, Axios
+**Backend:** Node.js, Express, MongoDB, Mongoose, JWT, bcrypt, Multer
+
+## Project Structure
+├── src/ # Frontend (React) source code
+├── public/ # Frontend static assets
+├── server/ # Backend (Node/Express) source code
+
+
+## Getting Started
+
+### Frontend
+
+npm install
+npm run dev
+
+
+### Backend
+
+cd server
+npm install
+npm run dev
+
+
+Create a `.env` file in the `server` folder with your own MongoDB URI and JWT secret.
+
+## Author
+
+**Ranchani** — [GitHub](https://github.com/Ranjkanna) | [LinkedIn](https://linkedin.com/in/siva-ranchani-17ba9139b)
