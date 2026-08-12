@@ -14,6 +14,9 @@ Elite & Prestige Hall lets users browse event packages, book venues, and track t
 - Auto-calculated booking status (upcoming/completed/cancelled)
 - Booking cancellation without losing records
 - Responsive design with a custom purple-and-blue themed dashboard
+**Interactive chatbot assistant** ("Tara") guiding visitors with quick actions like Plan My Event and View Gallery
+**- Animated welcome host** character greeting visitors on the homepage
+ 
 
 ## Tech Stack
 
